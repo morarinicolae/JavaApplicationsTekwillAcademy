@@ -31,6 +31,6 @@ public class Sales {
 	 int quantity = keyboard.nextInt();
 	 total += price * quantity;
                 System.out.println(total);
-	System.out.println("Total income :" + total +" $ ");}
+	System.out.printf("Total income :  %3.2f1$\n",total);}
     }
 }
