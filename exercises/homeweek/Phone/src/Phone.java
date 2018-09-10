@@ -32,26 +32,18 @@ public class Phone
     if (minutes <=500 && gigsOfData == 0)//A 
   {
      if (messages == 0) 
-    
     System.out.println("Plan A is appropiate for you at $49 per month");
    }
-    
     if (minutes <= 500 && messages > 100)//B
   {
-    if (gigsOfData == 0)
-      
+    if (gigsOfData == 0) 
       System.out.println("Plan B is right for you at $55 permonth");
-    
    }
     if (minutes >= 500 && messages <= 100)//C 
     System.out.println("Plan C is right for you at $70");
-  
     if (gigsOfData > 0 && gigsOfData <2 )//E
       System.out.println("Plan E is right for you at $79 per month");
-    
     if (gigsOfData >= 2 )//f 
       System.out.println("Plan F is right for you at $87 per month");
-  
-  
 }
 }

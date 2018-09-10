@@ -1,13 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author hcamp
- */
 public class Sandwich {
-    
+    {
+    public Sandwich()
+    {
+        mainIng ="Turkey";
+        bread = "Rye";
+        price = 5.99;        
+    }
+    public String mainIng;
+    public String bread;
+    public double price;
+    public void setMainIng(String abs[]);
+    {
+        mainIng=
+    }
+}
+
 }
