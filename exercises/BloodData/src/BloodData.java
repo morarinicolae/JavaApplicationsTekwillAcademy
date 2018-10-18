@@ -26,4 +26,8 @@ public class BloodData {
     public String getRhFactor () {
         return rhFactor;
     }
-}
+    /*@Override
+    public String toString (){
+        return "BloodData"*/
+    }
+

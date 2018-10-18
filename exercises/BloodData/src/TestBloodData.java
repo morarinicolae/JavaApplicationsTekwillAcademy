@@ -12,7 +12,7 @@ public class TestBloodData {
         blood2.setRhFactor( "-" ) ;
         
         System.out.println();
-        System.out.println(" Blood Type: " + blood2.getBloodType());
+        System.out.println( " Blood Type: " + blood2.getBloodType());
         System.out.println("Rh Factor: " + blood2.getRhFactor());
         System.out.println();
         
@@ -20,5 +20,9 @@ public class TestBloodData {
         BloodData blood3 = new BloodData ( "B" , " + ");
         System.out.println("Blood Type: " + blood3.getBloodType());
         System.out.println("Rh Factor: " + blood3.getRhFactor());
+        
+        BloodData blood4 = new BloodData ( "AB" , " - ");
+        System.out.println("Blood Type: " + blood4.getBloodType());
+        System.out.println("Rh Factor: " + blood4.getRhFactor());
     } 
 }
